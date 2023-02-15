@@ -1,0 +1,9 @@
+samples:
+    SRR12207279: sample-data/SRR12207279.sralite
+    SRR12207280: sample-data/SRR12207280.sralite
+    SRR12207283: sample-data/SRR12207283.sralite
+    SRR12207284: sample-data/SRR12207284.sralite
+    
+genome: ref-data/mm10/genome   
+
+gtf: ref-adata/mm10.refGene.gtf.gz

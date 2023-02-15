@@ -1,0 +1,66 @@
+begin downloading sra file......
+cat: idname: No such file or directory
+All sra file downloaded!
+ls: cannot access '*.sra*': No such file or directory
+All fastq file extracted successfully!
+pigz: skipping: *.fastq does not exist
+All fastq file ziped successfully
+begin downloading sra file......
+
+2023-02-03T06:54:25 prefetch.3.0.0: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2023-02-03T06:54:26 prefetch.3.0.0: 1) Downloading 'SRR12207279'...
+2023-02-03T06:54:26 prefetch.3.0.0: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2023-02-03T06:54:26 prefetch.3.0.0:  Downloading via HTTPS...
+2023-02-03T06:56:58 prefetch.3.0.0:  HTTPS download succeed
+2023-02-03T06:57:02 prefetch.3.0.0:  'SRR12207279' is valid
+2023-02-03T06:57:02 prefetch.3.0.0: 1) 'SRR12207279' was downloaded successfully
+2023-02-03T06:57:02 prefetch.3.0.0: 'SRR12207279' has 0 unresolved dependencies
+-e SRR12207279 downloaded sucessfully!
+
+2023-02-03T06:57:03 prefetch.3.0.0: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2023-02-03T06:57:04 prefetch.3.0.0: 1) Downloading 'SRR12207280'...
+2023-02-03T06:57:04 prefetch.3.0.0: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2023-02-03T06:57:04 prefetch.3.0.0:  Downloading via HTTPS...
+2023-02-03T07:00:34 prefetch.3.0.0:  HTTPS download succeed
+2023-02-03T07:00:38 prefetch.3.0.0:  'SRR12207280' is valid
+2023-02-03T07:00:38 prefetch.3.0.0: 1) 'SRR12207280' was downloaded successfully
+2023-02-03T07:00:38 prefetch.3.0.0: 'SRR12207280' has 0 unresolved dependencies
+-e SRR12207280 downloaded sucessfully!
+
+2023-02-03T07:00:40 prefetch.3.0.0: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2023-02-03T07:00:41 prefetch.3.0.0: 1) Downloading 'SRR12207283'...
+2023-02-03T07:00:41 prefetch.3.0.0: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2023-02-03T07:00:41 prefetch.3.0.0:  Downloading via HTTPS...
+2023-02-03T07:03:20 prefetch.3.0.0:  HTTPS download succeed
+2023-02-03T07:03:23 prefetch.3.0.0:  'SRR12207283' is valid
+2023-02-03T07:03:23 prefetch.3.0.0: 1) 'SRR12207283' was downloaded successfully
+2023-02-03T07:03:23 prefetch.3.0.0: 'SRR12207283' has 0 unresolved dependencies
+-e SRR12207283 downloaded sucessfully!
+
+2023-02-03T07:03:25 prefetch.3.0.0: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2023-02-03T07:03:26 prefetch.3.0.0: 1) Downloading 'SRR12207284'...
+2023-02-03T07:03:26 prefetch.3.0.0: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2023-02-03T07:03:26 prefetch.3.0.0:  Downloading via HTTPS...
+2023-02-03T07:05:44 prefetch.3.0.0:  HTTPS download succeed
+2023-02-03T07:05:47 prefetch.3.0.0:  'SRR12207284' is valid
+2023-02-03T07:05:47 prefetch.3.0.0: 1) 'SRR12207284' was downloaded successfully
+2023-02-03T07:05:47 prefetch.3.0.0: 'SRR12207284' has 0 unresolved dependencies
+-e SRR12207284 downloaded sucessfully!
+All sra file downloaded!
+-e begin extracting fastq file from SRR12207279.sra......
+disk-limit exeeded!
+to see limits: re-run with '-x' option.
+fasterq-dump quit with error code 3
+-e begin extracting fastq file from SRR12207280.sra......
+disk-limit exeeded!
+to see limits: re-run with '-x' option.
+fasterq-dump quit with error code 3
+-e begin extracting fastq file from SRR12207283.sra......
+2023-02-03T07:07:13 fasterq-dump.3.0.0 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='4'
+2023-02-03T07:07:13 fasterq-dump.3.0.0 err: storage exhausted while writing file within file system module - system bad file descriptor error fd='3'
+2023-02-03T07:07:13 fasterq-dump.3.0.0 err: storage exhausted while writing file within file sy-e begin extracting fastq file from SRR12207284.sra......
+disk-limit exeeded!
+to see limits: re-run with '-x' option.
+fasterq-dump quit with error code 3
+All fastq file extracted successfully!
+All fastq file ziped successfully
